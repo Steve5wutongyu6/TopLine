@@ -12,7 +12,14 @@ import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
+
+import com.itheima.topline.fragment.HomeFragment;
+import com.itheima.topline.fragment.MyFragmentPagerAdapter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -53,6 +60,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         viewPager = (ViewPager)findViewById(R.id.viewPager);
+
+
+        HomeFragment homeFragment = new HomeFragment();
+        List<Fragment> alFragment = new ArrayList<>();
+        alFragment.add(homeFragment);
+
+        // ViewPager 设置适配器
+        viewPager.setAdapter(new MyFragmentPagerAdapter(getSupportFragmentManager(), alFragment));
+        viewPager.setCurrentItem(0); // ViewPager 显示第一个 Fragment
 
 
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
