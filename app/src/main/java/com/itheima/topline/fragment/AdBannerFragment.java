@@ -11,6 +11,7 @@ import com.bumptech.glide.Glide;
 import com.itheima.topline.R;
 import com.itheima.topline.activity.NewsDetailActivity;
 import com.itheima.topline.bean.NewsBean;
+
 public class AdBannerFragment extends Fragment {
     private NewsBean nb;   //广告
     private ImageView iv;  //图片
