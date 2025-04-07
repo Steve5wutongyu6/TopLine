@@ -22,3 +22,5 @@ dependencyResolutionManagement {
 rootProject.name = "TopLine"
 include(":app")
 include(":PullToRefresh")
+include(":boommenu")
+include(":hellocharts-library")

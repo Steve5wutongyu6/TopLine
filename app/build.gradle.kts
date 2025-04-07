@@ -39,6 +39,8 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.gson)
     implementation(project(":PullToRefresh"))
+    implementation(project(":boommenu"))
+    implementation(project(":hellocharts-library"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

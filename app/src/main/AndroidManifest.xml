@@ -16,6 +16,12 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".activity.AndroidCountActivity"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".activity.JavaCountActivity"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
             android:name=".activity.PythonActivity"
             android:theme="@style/AppTheme.TransparentActivity" />
         <activity
