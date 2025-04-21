@@ -10,12 +10,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import com.itheima.topline.fragment.CountFragment;
 import com.itheima.topline.fragment.HomeFragment;
 import com.itheima.topline.fragment.MyFragmentPagerAdapter;
+import com.itheima.topline.fragment.VideoFragment;
+
 import java.util.ArrayList;
 import java.util.List;
 public class MainActivity extends AppCompatActivity {
@@ -58,9 +59,11 @@ public class MainActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         HomeFragment homeFragment = new HomeFragment();
         CountFragment countFragment = new CountFragment();
+        VideoFragment videoFragment = new VideoFragment();
         List alFragment = new ArrayList();
         alFragment.add(homeFragment);
         alFragment.add(countFragment);
+        alFragment.add(videoFragment);
         viewPager.setOffscreenPageLimit(3); //三个界面之间来回切换都不会重新加载数据。
         //ViewPager设置适配器
         viewPager.setAdapter(new MyFragmentPagerAdapter(getSupportFragmentManager(),
