@@ -5,5 +5,4 @@ public class Constant {
     public static final String REQUEST_AD_URL = "/home_ad_list_data.json";
     public static final String REQUEST_NEWS_URL = "/home_news_list_data.json";
     public static final String REQUEST_PYTHON_URL = "/python_list_data.json";
-    public static final String REQUEST_VIDEO_URL = "/video_list_data.json";
 }
