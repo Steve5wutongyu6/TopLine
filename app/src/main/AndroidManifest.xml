@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!-- 允许获取粗略位置，若用GPS实现定位小蓝点功能则必选 -->
@@ -47,6 +48,8 @@
 
 
 >>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
+=======
+>>>>>>> parent of c6ff706 (实验五)
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -58,6 +61,7 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -76,6 +80,8 @@
             android:name=".activity.PythonActivity"
             android:theme="@style/AppTheme.TransparentActivity" />
 >>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
+=======
+>>>>>>> parent of c6ff706 (实验五)
         <activity
             android:name=".activity.AndroidCountActivity"
             android:theme="@style/AppTheme.TransparentActivity" />

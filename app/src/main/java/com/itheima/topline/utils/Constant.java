@@ -6,6 +6,7 @@ public class Constant {
     public static final String REQUEST_NEWS_URL = "/home_news_list_data.json";
     public static final String REQUEST_PYTHON_URL = "/python_list_data.json";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public static final String REQUEST_VIDEO_URL = "/video_list_data.json";
     //星座界面接口
@@ -13,4 +14,6 @@ public class Constant {
     //星座选择界面接口
     public static final String REQUEST_CHOOSE_CONSTELLATION_LIST_URL = "/choose_constellation_list_data.json";
 >>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
+=======
+>>>>>>> parent of c6ff706 (实验五)
 }

@@ -43,6 +43,7 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     implementation(project(":bubbleviews"))
     implementation(project(":calendarview"))
@@ -50,6 +51,8 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 >>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
+=======
+>>>>>>> parent of c6ff706 (实验五)
     implementation(project(":PullToRefresh"))
     implementation(project(":boommenu"))
     implementation(project(":hellocharts-library"))
@@ -59,6 +62,7 @@ dependencies {
     implementation(libs.gson)
     implementation(libs.glide)
     implementation(libs.okhttp)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     implementation(libs.design)
@@ -70,5 +74,7 @@ dependencies {
     implementation (libs.xdmap.location.search)
     implementation("de.hdodenhof:circleimageview:3.1.0")
 >>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
+=======
+>>>>>>> parent of c6ff706 (实验五)
 
 }

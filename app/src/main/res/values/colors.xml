@@ -6,6 +6,7 @@
     <color name="rdTextColorNormal">#999999</color>
     <color name="rdTextColorPress">#eb413d</color>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <color name="rb_text_check">#ff5200</color>
     <color name="video_detail_text_color">#333333</color>
@@ -27,4 +28,6 @@
     <color name="health_text_color">#9cd47a</color>
     <color name="choose_constellation_title_color">#8bdcea</color>
 >>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
+=======
+>>>>>>> parent of c6ff706 (实验五)
 </resources>

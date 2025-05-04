@@ -4,6 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="view_indicator_padding">5dp</dimen>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <dimen name="popmenu_width">100dp</dimen>
     <dimen name="popmenu_yoff">5dp</dimen>
@@ -18,4 +19,6 @@
     <dimen name="avatar_final_x">8dp</dimen>
     <dimen name="toolbar_height">56dp</dimen>
 >>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
+=======
+>>>>>>> parent of c6ff706 (实验五)
 </resources>

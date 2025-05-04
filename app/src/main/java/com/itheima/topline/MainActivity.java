@@ -17,9 +17,12 @@ import com.itheima.topline.fragment.HomeFragment;
 import com.itheima.topline.fragment.MeFragment;
 import com.itheima.topline.fragment.MyFragmentPagerAdapter;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import com.itheima.topline.fragment.VideoFragment;
 >>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
+=======
+>>>>>>> parent of c6ff706 (实验五)
 import java.util.ArrayList;
 import java.util.List;
 
@@ -64,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
         HomeFragment homeFragment = new HomeFragment();
         CountFragment countFragment = new CountFragment();
 <<<<<<< HEAD
+<<<<<<< HEAD
         List alFragment = new ArrayList();
         alFragment.add(homeFragment);
         alFragment.add(countFragment);
@@ -76,6 +80,11 @@ public class MainActivity extends AppCompatActivity {
         alFragment.add(videoFragment);
         alFragment.add(meFragment);
 >>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
+=======
+        List alFragment = new ArrayList();
+        alFragment.add(homeFragment);
+        alFragment.add(countFragment);
+>>>>>>> parent of c6ff706 (实验五)
         viewPager.setOffscreenPageLimit(3); //三个界面之间来回切换都不会重新加载数据。
         //ViewPager设置适配器
         viewPager.setAdapter(new MyFragmentPagerAdapter(getSupportFragmentManager(),

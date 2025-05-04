@@ -28,6 +28,7 @@
         <item name="android:windowIsTranslucent">true</item>
     </style>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     <style name="playBottomTextViewStyle" parent="android:Widget.Holo.Light.TextView">
@@ -59,4 +60,6 @@
         <item name="android:windowIsTranslucent">true</item>
     </style>
 >>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
+=======
+>>>>>>> parent of c6ff706 (实验五)
 </resources>
