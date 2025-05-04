@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="lecho.lib.hellocharts.test" >
+4
+5    <uses-sdk
+5-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:5:5-74
+6        android:minSdkVersion="24"
+6-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:11:5-15:76
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:13:22-53
+13        android:label="Tests for lecho.lib.hellocharts.test"
+13-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:15:22-74
+14        android:targetPackage="lecho.lib.hellocharts.test" />
+14-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:12:22-72
+15
+16    <permission
+16-->[androidx.core:core:1.10.1] C:\Users\chen2\.gradle\caches\8.9\transforms\7f3e114c6881a31d7b311a1ca812b1ce\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+17        android:name="lecho.lib.hellocharts.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.10.1] C:\Users\chen2\.gradle\caches\8.9\transforms\7f3e114c6881a31d7b311a1ca812b1ce\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.10.1] C:\Users\chen2\.gradle\caches\8.9\transforms\7f3e114c6881a31d7b311a1ca812b1ce\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="lecho.lib.hellocharts.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.10.1] C:\Users\chen2\.gradle\caches\8.9\transforms\7f3e114c6881a31d7b311a1ca812b1ce\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.10.1] C:\Users\chen2\.gradle\caches\8.9\transforms\7f3e114c6881a31d7b311a1ca812b1ce\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:7:5-9:19
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.10.1] C:\Users\chen2\.gradle\caches\8.9\transforms\7f3e114c6881a31d7b311a1ca812b1ce\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false" >
+26        <uses-library android:name="android.test.runner" />
+26-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:8:9-60
+26-->D:\Project\TopLine\hellocharts-library\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9971525041142713732.xml:8:23-57
+27    </application>
+28
+29</manifest>

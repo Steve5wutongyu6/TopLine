@@ -1,0 +1,7 @@
+int attr type 0x0
+int drawable buildings 0x0
+int drawable sky 0x0
+int drawable sun 0x0
+int id sun 0x0
+int[] styleable RefreshView { 0x0 }
+int styleable RefreshView_type 0

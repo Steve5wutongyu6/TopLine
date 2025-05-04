@@ -12,12 +12,17 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
-
 import com.itheima.topline.fragment.CountFragment;
 import com.itheima.topline.fragment.HomeFragment;
+import com.itheima.topline.fragment.MeFragment;
 import com.itheima.topline.fragment.MyFragmentPagerAdapter;
+<<<<<<< HEAD
+=======
+import com.itheima.topline.fragment.VideoFragment;
+>>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
 import java.util.ArrayList;
 import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private RadioGroup radioGroup;
@@ -58,9 +63,19 @@ public class MainActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         HomeFragment homeFragment = new HomeFragment();
         CountFragment countFragment = new CountFragment();
+<<<<<<< HEAD
         List alFragment = new ArrayList();
         alFragment.add(homeFragment);
         alFragment.add(countFragment);
+=======
+        VideoFragment videoFragment = new VideoFragment();
+        MeFragment meFragment = new MeFragment();
+        List alFragment = new ArrayList();
+        alFragment.add(homeFragment);
+        alFragment.add(countFragment);
+        alFragment.add(videoFragment);
+        alFragment.add(meFragment);
+>>>>>>> e5250ed2bdfb22365e6c91a7c86f4ce0482094b7
         viewPager.setOffscreenPageLimit(3); //三个界面之间来回切换都不会重新加载数据。
         //ViewPager设置适配器
         viewPager.setAdapter(new MyFragmentPagerAdapter(getSupportFragmentManager(),
