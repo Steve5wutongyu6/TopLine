@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "lecho.lib.hellocharts.test.hellocharts-library-mergeDebugAndroidTestResources-6:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\chen2\\.gradle\\caches\\8.9\\transforms\\7f3e114c6881a31d7b311a1ca812b1ce\\transformed\\core-1.10.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

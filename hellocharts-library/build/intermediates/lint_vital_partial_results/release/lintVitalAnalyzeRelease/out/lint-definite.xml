@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.0" type="incidents">
+
+    <incident
+        id="ExpiredTargetSdkVersion"
+        severity="fatal"
+        message="Google Play requires that apps target API level 33 or higher.">
+        <fix-attribute
+            description="Update targetSdkVersion to 33"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="targetSdkVersion"
+            value="33"/>
+        <location
+            file="${:hellocharts-library*release*MAIN*sourceProvider*0*manifest*0}"
+            line="10"
+            column="9"
+            startOffset="275"
+            endLine="10"
+            endColumn="38"
+            endOffset="304"/>
+    </incident>
+
+</incidents>

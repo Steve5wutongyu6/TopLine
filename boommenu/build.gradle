@@ -21,4 +21,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation libs.junit.junit
+    testImplementation libs.junit.jupiter
+    implementation libs.androidx.appcompat.v161
+    implementation libs.androidx.legacy.support.v4
 }
